@@ -2,7 +2,7 @@
 
 : "${PROFILE:=${HOME}/.bashrc}"
 cd ~ || exit
-cat >> $PROFILE << 'EOF'
+cat >> "$PROFILE" << 'EOF'
 export JAVA_HOME="$PREFIX/lib/jvm/java-21-openjdk"
 export ANDROID_HOME="${HOME}/Android/Sdk"
 export ANDROID_SDK_ROOT="${ANDROID_HOME}"
@@ -34,11 +34,11 @@ mv cmdline-tools/* ~/Android/Sdk/cmdline-tools/latest
 rm -r cmdline-tools
 cd ~/Android/Sdk/cmdline-tools/latest/bin || exit
 if [ "$#" -gt 0 ]; then
-echo y | ./sdkmanager $@
+echo y | ./sdkmanager "$@"
 fi
 cd ~ || exit
 wget https://github.com/lzhiyong/termux-ndk/releases/download/android-ndk/android-ndk-r29-aarch64.7z
-7z x android-ndk-r29-aarch64.7z -o${HOME}/Android/Sdk/ndk
+7z x android-ndk-r29-aarch64.7z -o"${HOME}/Android/Sdk/ndk"
 rm android-ndk-r29-aarch64.7z
 mkdir -p ~/.gradle
 cat > ~/.gradle/gradle.properties << 'EOF'

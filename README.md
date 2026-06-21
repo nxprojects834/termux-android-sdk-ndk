@@ -15,7 +15,7 @@ Run `./install.sh`. It will non-interactively:
 
 * Install required Termux packages: `aapt`, `aapt2`, `aidl`, `android-tools`, `apksigner`, `d8`, `jq`, `openjdk-21`, `unzip`, `wget`.
 * Install Android Command-line tools.
-* Install Android SDK in the argument. Note that `emulator` will not work.
+* Install Android SDK in the argument. Note that `emulator` will not work. You can install them later using `sdkmanager`.
 * Install Android NDK r29 from <https://github.com/lzhiyong/termux-ndk>`.
 * Add `android.aapt2FromMavenOverride=/data/data/com.termux/files/usr/bin/aapt2` in `~/.gradle/gradle.properties`.
 * Set environment variables `JAVA_HOME`, `ANDROID_HOME`, `ANDROID_SDK_ROOT`, `ANDROID_NDK_HOME`, `ANDROID_NDK_TOOLCHAINS`, and `PATH` in environment variable `PROFILE` if it is set and `~/.bashrc` otherwise.
