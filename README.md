@@ -21,7 +21,7 @@ chmod +x install.sh
 
 Run `./install.sh`. It will non-interactively:
 
-* Install required Termux packages: `aapt`, `aapt2`, `aidl`, `android-tools`, `apksigner`, `d8`, `jq`, `openjdk-21`, `unzip`, `wget`.
+* Install Termux packages: `aapt`, `aapt2`, `aidl`, `android-tools`, `apksigner`, `d8`, `jq`, `openjdk-21`, `p7zip`, `unzip`, `wget`.
 * Install Android Command-line tools.
 * Install Android SDK in the argument. Note that `emulator` will not work. You can install them later using `sdkmanager`.
 * Install Android NDK r29 from <https://github.com/lzhiyong/termux-ndk>`.
