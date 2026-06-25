@@ -4,6 +4,7 @@
 cd ~ || exit
 if [ "$PROFILE" != '/dev/null' ]; then
 cat >> "$PROFILE" << 'EOF'
+
 export JAVA_HOME="$PREFIX/lib/jvm/java-21-openjdk"
 export ANDROID_HOME="${HOME}/Android/Sdk"
 export ANDROID_SDK_ROOT="${ANDROID_HOME}"
