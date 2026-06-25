@@ -26,7 +26,7 @@ count >= 2 {
     print substr($0, RSTART, RLENGTH)
     exit
   }
-}' studio.html)"
+}' studio.html)" || true
 rm studio.html*
 wget --tries=100 --retry-connrefused --waitretry=5 "https://dl.google.com/android/repository/${CMDLINETOOLS}"
 unzip "$CMDLINETOOLS"
