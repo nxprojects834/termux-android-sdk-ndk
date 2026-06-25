@@ -16,6 +16,7 @@ Download `install.sh`:
 pkg update
 pkg install wget -y
 wget https://raw.githubusercontent.com/Willie169/termux-android-sdk-ndk/refs/heads/main/install.sh
+chmod +x install.sh
 ```
 
 Run `./install.sh`. It will non-interactively:
