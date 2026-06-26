@@ -1,6 +1,6 @@
 # termux-android-sdk-ndk
 
-[![GitHub Action CI](https://github.com/Willie169/termux-android-sdk-ndk/actions/workflows/termux-android-sdk-ndk_test.yml/badge.svg)](https://github.com/Willie169/termux-android-sdk-ndk/actions/workflows/termux-android-sdk-ndk_test.yml)
+[![GitHub Action CI](https://github.com/Willie169/termux-android-sdk-ndk/actions/workflows/install.yml/badge.svg)](https://github.com/Willie169/termux-android-sdk-ndk/actions/workflows/install.yml)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Willie169/termux-android-sdk-ndk?style=social)
 
 ## Prerequisites
