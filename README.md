@@ -8,8 +8,8 @@
 <ul>
 <li>Stable internet connection.</li>
 <li>It is recommended to turn off the battery optimization for Termux.</li>
-<li>It is recommended to hold wakelock while running the script. You can do so by opening Termux, pulling down the notification bar, and then tapping <strong>Acquire wakelock</strong> on the notification of Termux.</li>
 <li>It is recommended to prevent the <code>Process completed (signal 9) - press Enter</code> error in advance. You may encounter it when using Termux, especially when running VMs. To prevent it from occuring, please read tutorial about it in my <strong>Android Non Root</strong>: <a href="https://willie169.github.io/Android-Non-Root/#process-completed-signal-9---press-enter-error">https://willie169.github.io/Android-Non-Root/#process-completed-signal-9---press-enter-error</a> for the fixes.</li>
+<li>It is suggested to run <code>termux-change-repo</code> and select repo(s) closer to your geographical location for faster download.</li>
 </ul>
 
 ## Usage
