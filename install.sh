@@ -46,6 +46,7 @@ unzip "$CMDLINETOOLS"
 mkdir -p ~/Android/Sdk/cmdline-tools/latest
 mv cmdline-tools/* ~/Android/Sdk/cmdline-tools/latest
 rm -r cmdline-tools
+rm "$CMDLINETOOLS"*
 cd ~/Android/Sdk/cmdline-tools/latest/bin || exit
 for f in *; do
 test -f "$f" && termux-fix-shebang "$f"
